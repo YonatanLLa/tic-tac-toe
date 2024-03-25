@@ -1,14 +1,12 @@
-
 import './App.css'
+import { Routes, Route } from 'react-router-dom';
+
 
 function App() {
-
-  return (
-    <>
-      <div>
-        hola!!!!!!!!!1
-      </div>
-    </>
+  return(
+    <Routes>
+      <Route />
+    </Routes>
   )
 }
 
