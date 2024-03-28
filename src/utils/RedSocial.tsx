@@ -7,16 +7,16 @@ const RedSocial = () => {
     return (
         <div className="flex items-center h-full">
             <span>
-                <FaFacebook className=" dark:fill-white mx-2 h-14" />
+                <FaFacebook className="dark:fill-white mx-2 h-20 w-5  hover:fill-[#ff3399] hover:cursor-pointer  transition-transform transform hover:scale-110 duration-300" />
             </span>
             <span>
-                <FaInstagram className=" dark:fill-white mx-2 h-14" />
+                <FaInstagram className="dark:fill-white mx-2 h-20 w-5  hover:fill-[#ff3399] hover:cursor-pointer  transition-transform transform hover:scale-110 duration-300" />
             </span>
             <span>
-                <FaTiktok className=" dark:fill-white mx-2 h-14" />
+                <FaTiktok className="dark:fill-white mx-2 h-20 w-5  hover:fill-[#ff3399] hover:cursor-pointer  transition-transform transform hover:scale-110 duration-300" />
             </span>
             <span>
-                <FaLinkedin className=" dark:fill-white mx-2 h-14" />
+                <FaLinkedin className="dark:fill-white mx-2 h-20 w-5  hover:fill-[#ff3399] hover:cursor-pointer  transition-transform transform hover:scale-110 duration-300" />
             </span>
         </div>
     )

@@ -1,7 +1,8 @@
+
 const Proyectos = () => {
-    return (
-        <div>Proyectos</div>
-    )
+  return (
+    <div>Proyectos</div>
+  )
 }
 
 export default Proyectos
