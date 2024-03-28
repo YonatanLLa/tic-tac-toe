@@ -13,7 +13,16 @@ const NavBar = () => {
           {/* <Logo theme={'light'}/> */}
           <LogoSun />
         </div>
-        
+        <div>
+          <ul className='flex w-48 justify-between items-center h-full'>
+            <Link to="/" className={location.pathname === "/" ? `transition-all duration-300 border-b-8 border-[#ff3399]  dark:text-white hover:text-[#ff3399] w-full h-full flex justify-center items-center` : " w-full h-full dark:text-white flex justify-center items-center"}>
+              <li>Servicios</li>
+            </Link>
+            <Link to="/proyectos" className='transition-all duration-300 hover:border-b-8 dark:text-white hover:border-[#ff3399] w-full h-full flex justify-center items-center'>
+              <li>Proyectos</li>
+            </Link>
+          </ul>
+        </div>
         <div className='flex'>
           <div className='mr-2'>
             <RedSocial />
